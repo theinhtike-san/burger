@@ -7,3 +7,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  
+  /* burger Menu */
+  .card{
+    @apply flex flex-col items-center text-center gap-3 justify-evenly bg-slate-200 rounded-lg px-5 py-10 hover:bg-slate-300
+  }
+  .card-2{
+    @apply animate-zoomUp relative z-50
+  }
+  .card-5{
+    @apply animate-zoomBelow relative z-50
+  }
+  .card-1{
+    @apply animate-zoomUpLeft relative z-20
+  }
+  .card-3{
+    @apply animate-zoomUpRight relative z-20
+  }
+  .card-4{
+    @apply animate-zoomBelowLeft relative z-20
+  }
+  .card-6{
+    @apply animate-zoomBelowRight relative z-20
+  }
+  /* Burger Menu end */
+
+
+  .img-1{
+    @apply animate-slideLeft relative top-0 z-40 bg-cover bg-center
+  }
+  .img-5{
+    @apply animate-slideRight relative z-40 bg-cover bg-center 
+  }
+  .img-2{
+    @apply animate-slideLeftBelow relative z-20 bg-cover bg-center 
+  }
+  .img-4{
+    @apply animate-slideRightBelow relative z-20 bg-cover bg-center 
+  }
+  .img-3{
+    @apply animate-zoom relative z-10 bg-cover bg-center 
+  }
+}
