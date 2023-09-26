@@ -14,22 +14,22 @@
     @apply flex flex-col items-center text-center gap-3 justify-evenly bg-slate-200 rounded-lg px-5 py-10 hover:bg-slate-300
   }
   .card-2{
-    @apply animate-zoomUp relative z-50
+    @apply animate-zoomUp relative z-20
   }
   .card-5{
-    @apply animate-zoomBelow relative z-50
+    @apply animate-zoomBelow relative z-20
   }
   .card-1{
-    @apply animate-zoomUpLeft relative z-20
+    @apply animate-zoomUpLeft relative z-10
   }
   .card-3{
-    @apply animate-zoomUpRight relative z-20
+    @apply animate-zoomUpRight relative z-10
   }
   .card-4{
-    @apply animate-zoomBelowLeft relative z-20
+    @apply animate-zoomBelowLeft relative z-10
   }
   .card-6{
-    @apply animate-zoomBelowRight relative z-20
+    @apply animate-zoomBelowRight relative z-10
   }
   /* Burger Menu end */
 
