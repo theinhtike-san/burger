@@ -9,6 +9,8 @@ module.exports = {
       'lato': ['Lato', 'sans-serif'],
       'poppins': ['Poppins', 'sans-serif'],
       'freehand': ['Freehand', 'cursive'],
+      'courgette': ['Courgette', 'cursive'],
+      'roboto': ['Roboto', 'sans-serif'],
     },
     extend: {
       colors: {

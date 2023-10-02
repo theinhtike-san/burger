@@ -1,5 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Freehand&family=Lato:ital,wght@0,400;0,700;0,900;1,900&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Courgette&family=Freehand&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
 
 
 @tailwind base;
@@ -13,7 +15,7 @@
   .card{
     @apply flex flex-col items-center text-center gap-3 justify-evenly bg-slate-200 rounded-lg px-5 py-10 hover:bg-slate-300
   }
-  .card-2{
+  /* .card-2{
     @apply animate-zoomUp relative z-20
   }
   .card-5{
@@ -30,8 +32,25 @@
   }
   .card-6{
     @apply animate-zoomBelowRight relative z-10
+  } */
+
+  .order-button{
+    @apply bg-transparent border-primary-500 border-2 rounded-full px-8 py-2 text-primary-500 font-bold lg:text-xl text-lg hover:bg-primary-500 hover:text-white transition-all duration-500
+  }
+
+  .price-button{
+    @apply w-12 h-12 text-white text-2xl font-freehand font-bold text-center rounded-full bg-primary-500 leading-[3rem]
   }
   /* Burger Menu end */
+
+  /* Burger Pack  */
+
+  .burger-pack-card{
+    @apply flex items-center justify-between  md:px-10 px-7 py-5 relative lg:h-[500px] h-[300px] 
+  }
+  .burger-pack-img{
+    @apply md:max-lg:hidden absolute right-0 translate-x-[50%] md:h-[90%] h-[50%] w-auto  object-center 
+  }
 
 
   .img-1{
